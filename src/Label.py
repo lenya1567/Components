@@ -1,4 +1,4 @@
-from lib.ObjectInterface import PassParams
+from modules.TkinterDesign import PassParams
 
 LabelInitProps = {
     'text': 'Hello world!',
