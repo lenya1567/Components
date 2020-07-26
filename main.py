@@ -6,5 +6,4 @@ from modules.Components import TextField as tfield
 class export:
   Button = btn
   Label = lbl
-  ObjectInterface = interface
   TextField = tfield
