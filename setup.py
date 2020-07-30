@@ -1,4 +1,4 @@
-from modules.design import hasmodule, install
+import modules.design
 
-if not hasmodule('TkinterDesign'):
-  install("TkinterDesign")
+if not modules.design.hasmodule('TkinterDesign'):
+  modules.design.install("TkinterDesign")
