@@ -1,4 +1,6 @@
-from modules.TkinterDesign import PassParams
+from modules.design import include
+
+PassParams = include("TkinterDesign").PassParams
 
 LabelInitProps = {
     'text': 'Hello world!',
@@ -47,4 +49,4 @@ class Label():
 
         globalVars = f"global {self_name}, {self_x}, {self_y}, {self_value}, {self_font}, {self_anchor}, {self_fill}"
 
-        return PassParams(initVars, view, "", "", "", "", globalVars).current()
+        return PassParams(initVars, view, "", "", "", "", globalVars)
