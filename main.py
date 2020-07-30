@@ -1,5 +1,5 @@
-from modules.Components.src.Button as btn
-from modules.Components.src.Label as lab
+from modules.Components.src.Button import Button as btn
+from modules.Components.src.Label import Label as lab
 
 class export:
   Button = btn
