@@ -92,4 +92,4 @@ class Button():
         btn1 += f"\t\tpresent()\n\n"
         btn1 += f"\t\t{self_active} = True\n"
 
-        return PassParams(initVars, view, btn1, "", "", "", globalVars).current()
+        return PassParams(initVars, view, btn1, "", "", "", globalVars)
