@@ -1,4 +1,6 @@
-from modules.TkinterDesign import PassParams
+from modules.design import include
+
+PassParams = include("TkinterDesign").PassParams
 
 ButtonInitProps = {
     'text': 'Click me!',
